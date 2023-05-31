@@ -14,7 +14,7 @@ def evaluate_board(board):
     chess.BISHOP: 3,
     chess.ROOK: 5,
     chess.QUEEN: 9,
-    chess.KING: 0  # Add the missing mapping for the king piece type
+    chess.KING: 0  
 }
 
 
