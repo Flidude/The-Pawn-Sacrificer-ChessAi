@@ -86,9 +86,9 @@ while not board.is_game_over():
     if board.is_game_over():
         break
 
-    # User's move
+    # Player's move
     while True:
-        user_move = input("Enter your move in UCI notation (e.g., e2e4): ")
+        user_move = input("Enter your move in UCI notation (e.g., e7e5): ")
         move = chess.Move.from_uci(user_move)
         if move in board.legal_moves:
             board.push(move)
