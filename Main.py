@@ -1,7 +1,7 @@
 import chess
 import chess.engine
 
-# Initialize the chess board
+# Creates the chess board
 board = chess.Board()
 
 # Function to evaluate the board position
