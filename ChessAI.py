@@ -9,7 +9,7 @@ def evaluate_board(board):
     # Calculate the score based on material advantage and position
     score = 0
     piece_values = {
-    chess.PAWN: 1,
+    chess.PAWN: -1,#makes the AI more likely to sacrifice pawns as it values them less.
     chess.KNIGHT: 3,
     chess.BISHOP: 3,
     chess.ROOK: 5,
