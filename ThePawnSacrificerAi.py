@@ -98,3 +98,4 @@ while not board.is_game_over():
 
 print("Game over.")
 print("Result:", board.result())
+print("by Flidude")
